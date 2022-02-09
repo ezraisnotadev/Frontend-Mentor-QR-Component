@@ -1,0 +1,34 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 1.3;
+  margin: 0px;
+  padding: 0px;
+  background-color: #7b879d;
+}
+
+.wrapper {
+  width: 321px;
+  height: 499px;
+  background-color: white;
+  color: #1f3251;
+}
+
+.wrapper .qr-code {
+  background-image: url(../images/image-qr-code.png);
+  background-size: 290px 289px;
+  background-repeat: no-repeat;
+  width: 290px;
+  height: 289px;
+  margin: 17px 16px;
+}
